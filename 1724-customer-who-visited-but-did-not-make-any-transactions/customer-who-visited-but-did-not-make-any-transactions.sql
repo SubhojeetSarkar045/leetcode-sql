@@ -1,5 +1,5 @@
 # Write your MySQL query statement below
-SELECT 
+SELECT DISTINCT
     v.customer_id, 
     COUNT(v.visit_id) AS count_no_trans 
 FROM 
